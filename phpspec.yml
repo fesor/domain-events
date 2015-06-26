@@ -1,0 +1,4 @@
+suites:
+    default:
+        namespace: Fesor\DomainEvents
+        psr4_prefix: Fesor\DomainEvents

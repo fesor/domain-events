@@ -1,0 +1,31 @@
+{
+    "name": "fesor/domain-events",
+    "description": "Simple domain events implementation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Protko",
+            "email": "fesors@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "Fesor\\DomainEvents\\": "src/", 
+            "spec\\Fesor\\DomainEvents\\": "spec/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.2",
+        "fabpot/php-cs-fixer": "^1.9"
+    }
+}
